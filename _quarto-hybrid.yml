@@ -1,0 +1,19 @@
+website:
+  navbar:
+    left:
+      - text: Projects
+        menu:
+          - projects/vegetation-maps.qmd
+          - projects/water-quality.qmd
+      - text: R Tutorials
+        href: tutorials/R/01-data-import.qmd 
+      - text: Python Tutorials
+        href: tutorials/python/01-getting-started.qmd
+    right: 
+      - about.qmd
+
+  sidebar:
+    - title: R Tutorials
+      contents: tutorials/R/
+    - title: Python Tutorials
+      contents: tutorials/python/

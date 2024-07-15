@@ -1,0 +1,8 @@
+- source: project
+  quarto-pub:
+    - id: 182ad2e2-fc01-45c6-84f9-d4d7d03dd1f9
+      url: 'https://charlotte.quarto.pub/navigation-demo-auto-sidebar'
+    - id: da65be66-abc3-4fc9-890e-9f64da47dd3b
+      url: 'https://charlotte.quarto.pub/navigation-demo-all-top-nav'
+    - id: 05d93f2e-8250-4214-8226-691efdacaf87
+      url: 'https://charlotte.quarto.pub/navigation-demo-hybrid'

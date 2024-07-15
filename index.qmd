@@ -1,0 +1,52 @@
+---
+title: "Navigation Demo"
+---
+
+This is a Quarto website designed to demonstrate some navigation options.
+
+::: {.content-hidden unless-profile="auto-sidebar"}
+You are currently viewing "Automatic sidebar" (profile: `auto-sidebar`):
+```{.yaml filename="_quarto-auto-sidebar.yml"}
+{{< include _quarto-auto-sidebar.yml >}}
+```
+:::
+
+::: {.content-hidden unless-profile="all-top-nav"}
+You are currently viewing "All in top navigation" (profile: `all-top-nav`):
+```{.yaml filename="_quarto-all-top-nav.yml"}
+{{< include _quarto-all-top-nav.yml >}}
+```
+:::
+
+::: {.content-hidden unless-profile="hybrid"}
+You are currently viewing "Hybrid navigation" (profile: `hybrid`):
+```{.yaml filename="_quarto-hybrid.yml"}
+{{< include _quarto-hybrid.yml >}}
+```
+:::
+
+View other navigation variations:
+
+::: {.content-hidden when-profile="auto-sidebar"}
+* [Automatic sidebar](https://charlotte.quarto.pub/navigation-demo-auto-sidebar) (profile: `auto-sidebar`)
+:::
+
+::: {.content-hidden when-profile="all-top-nav"}
+* [All in top navigation](https://charlotte.quarto.pub/navigation-demo-all-top-nav) (profile: `all-top-nav`)
+:::
+
+::: {.content-hidden when-profile="hybrid"}
+* [Hybrid](https://charlotte.quarto.pub/navigation-demo-hybrid) (profile: `hybrid`)
+:::
+
+
+## Source Code
+
+You can get the source code at: <http://github.com/cwickham/nav-demo>
+
+The project uses profiles to describe the different navigation options. To preview an option locally use `quarto preview` with the appropriate profile, e.g.:
+
+```{.bash filename="Terminal"}
+quarto preview --profile auto-sidebar
+```
+
